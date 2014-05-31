@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Simple Word Wrap Editor</title>
+    <link href="style/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="lib/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="lib/jquery.autosize.min.js"></script>
+    <script type="text/javascript" src="src/WordWrap.js"></script>
+</head>
+
+<body>
+    <h1>Simple Word Wrap Editor</h1>
+
+    <div id="input">
+        <textarea id="text_input" rows="8" cols="80"></textarea>
+    </div>
+
+    <div id="controls">
+        <div>
+            <label for="prepend">Prepend Fixed Width Text With: </label>
+            <input type="text" name="prepend" id="prepend"
+                    size="12" />
+        </div>
+
+        <div>
+            <label for="fixed_width">Character Per Line (Including Prepend):</label>
+            <input type="text" id="fixed_width" name="fixed_width"
+                   value="80" size="3" maxlength="3" />
+        </div>
+
+        <br />
+
+        <input type="button" value="Convert to Fixed Width" id="to_fixed_btn" />
+        <input type="button" value="Convert to Flow" id="to_flow_btn" />
+    </div>
+
+    <div id="output">
+        <textarea id="text_output" rows="8" cols="80" readonly="readonly"></textarea>
+    </div>
+
+</body>
+
+
+</html>
+

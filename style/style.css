@@ -1,0 +1,49 @@
+html, body {
+    font-family: Helvetica, Arial, Verdana, Sans Serif;
+    padding: 10px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 1.0em;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+
+div#controls {
+    padding: 5px 0px;
+}
+
+div#controls div {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+div#controls label {
+    font-size: 0.85em;
+    color: #999;
+}
+
+div#controls input[type=button] {
+    margin: 5px 0px;
+}
+
+div#output, div#input {
+    padding: 0px;
+}
+
+textarea {
+    padding: 5px;
+}
+
+textarea#text_output {
+    background: #E0F0FF;
+    color: #332900;
+    border: 0px;
+}
+
+input[type=text], textarea {
+    font-family: Lucida Console, Courier, Monospace;
+    font-size: 0.8em;
+    border: 1px solid #999;
+}

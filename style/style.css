@@ -4,6 +4,10 @@ html, body {
     margin: 0px;
 }
 
+a, a:hover, a:visited {
+    color: #3399ff;
+}
+
 h1 {
     font-size: 1.0em;
     margin: 0px 0px 10px 0px;

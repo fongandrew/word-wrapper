@@ -188,4 +188,5 @@ $(document).ready(function() {
     $("#to_flow_btn").click(WRAP.fixed_to_flow_button)
     $('#text_input').autosize();
     $('#text_output').autosize();
+    $("#to_fixed_btn").click();
 })

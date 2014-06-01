@@ -13,14 +13,20 @@
     <h1>Word Wrapper</h1>
 
     <div id="input">
-        <textarea id="text_input" rows="8" cols="80"></textarea>
+        <textarea id="text_input" rows="8" cols="80">Word Wrapper is a simple app that converts fluid text into fixed-width (e.g. 80 character) text and back. It supports the following features:
+
+* Custom Character Widths - In case you're not a fan of 80 char limits
+
+* Prepending - Inserts a prepended string at the beginning of each line (e.g. a "# " or "// " at the beginning of each line for comments). The prepended string can also be removed when converting back from fixed width text.
+
+* Paragraphs - Paragraphs should be denoted by double newlines. Word Wrapper should respect and preserve this when converting.</textarea>
     </div>
 
     <div id="controls">
         <div>
             <label for="prepend">Prepend Fixed Width Text With: </label>
             <input type="text" name="prepend" id="prepend"
-                    size="12" />
+                    size="12" value="  # " />
         </div>
 
         <div>
